@@ -15,6 +15,14 @@
   color: var(--main-color);
 }
 
+.icon-black {
+  color: black;
+}
+
+.icon-white {
+  color: white;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -113,7 +121,21 @@ header img {
   border-right: none;
 }
 
-.search-form button {
+.button-text {
+  float: left;
+  width: 120px;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  font-weight: bold;
+  border: none !important;
+}
+
+.button-logo {
+  display: none;
   float: left;
   width: 120px;
   padding: 10px;
@@ -452,6 +474,14 @@ a {
   }
 
   .populaires-cards {
+    display: block;
+  }
+
+  .button-text {
+    display: none;
+  }
+
+  .button-logo {
     display: block;
   }
 }
