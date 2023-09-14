@@ -45,22 +45,24 @@
             <div class="icon">
               <i class="fa-solid fa-map-marker-alt"></i>
             </div>
-            <input type="text" placeholder="Rechercher" />
+            <input type="text" placeholder="Rechercher" value="Marseille, France"/>
             <button type="submit">Rechercher</button>
           </form>
           <div class="filtre-etiquette">
-            <h2>Filtres</h2>
-            <p><i class="fa-solid fa-money-bill-wave"></i>Economique</p>
-            <p><i class="fa-solid fa-person" aria-hidden="true"></i>Familial</p>
-            <p>
-              <i class="fa-solid fa-heart" aria-hidden="true"></i>Romantique
-            </p>
-            <p>
-              <i class="fa-solid fa-fire" aria-hidden="true"></i>Nos pépites
-            </p>
+            <p class="filtre-title">Filtres</p>
+            <div class="filtre-groupe">
+              <p class="filtre-label"><i class="fa-solid fa-money-bill-wave"></i>Economique</p>
+              <p class="filtre-label"><i class="fa-solid fa-person" aria-hidden="true"></i>Familial</p>
+              <p class="filtre-label">
+                <i class="fa-solid fa-heart" aria-hidden="true"></i>Romantique
+              </p>
+              <p class="filtre-label">
+                <i class="fa-solid fa-fire" aria-hidden="true"></i>Nos pépites
+              </p>
+            </div>
           </div>
           <div class="tooltip">
-            <div class="tooltip-logo">i</div>
+            <div class="tooltip-logo"><i class="fa-solid fa-info"></i></div>
               <span class="tooltip-text">Nombre de résultat associé à cette recherche</span>
             </div> Plus de 500 logements sont disponibles dans cette ville</p>
           </div>
@@ -335,64 +337,26 @@
         </div>
           
       </main>
-      <footer>
-        <div class="footer-content">
-          <div class="footer-links">
-            <thead>
-              <tr>
-                <th>A propos de</th>
-              </tr>
-            </thead>
-            <tr title="A propos de">
-              <td>
-                <a href="*">Fonctionnement du site</a>
-              </td>
-              <td>
-                <a href="*">Condtions générales</a>
-              </td>
-              <td>
-                <a href="*">Données et confidentialité</a>
-              </td>
-            </tr>
-          </div>
-          <div class="footer-links">
-            <thead>
-              <tr>
-                <th>Nos hébergements</th>
-              </tr>
-            </thead>
-            <tr title="A propos de">
-              <td>
-                <a href="*">Fonctionnement du site</a>
-              </td>
-              <td>
-                <a href="*">Condtions générales</a>
-              </td>
-              <td>
-                <a href="*">Données et confidentialité</a>
-              </td>
-            </tr>
-          </div>
-          <div class="footer-links">
-            <thead>
-              <tr>
-                <th>Assistance</th>
-              </tr>
-            </thead>
-            <tr title="A propos de">
-              <td>
-                <a href="*">Fonctionnement du site</a>
-              </td>
-              <td>
-                <a href="*">Condtions générales</a>
-              </td>
-              <td>
-                <a href="*">Données et confidentialité</a>
-              </td>
-            </tr>
-          </div>
+          <footer>
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>A propos</h3>
+          <a href="#">Fonctionnement du site</a>
+          <a href="#">Conditions générales</a>
+          <a href="#">Données et confidentialité</a>
         </div>
-      </footer>
+        <div class="footer-col">
+          <h3>Nos hébergements</h3>
+          <a href="#">charte qualité</a>
+          <a href="#">Proposer votre hôtel</a>
+        </div>
+        <div class="footer-col">
+          <h3>Assistance</h3>
+          <a href="#">Centre d'aide</a>
+          <a href="#">Nous contacter</a>
+        </div>
+      </div>
+    </footer>
     </div>
   </body>
 </html>
