@@ -39,6 +39,15 @@ body {
 
 /* tooltips */
 
+.tooltip-container {
+  display: flex;
+}
+
+.tooltip-info {
+  display: flex;
+  align-items: center;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
